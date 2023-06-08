@@ -1,0 +1,101 @@
+.logoCDMX{
+    border-bottom: 1px solid;
+    padding-left: 20px;
+    margin: 0px 10px;
+}
+
+.logCDMX>img{
+    width: 204px;
+    height: 37px;
+}
+
+.barra{
+    margin-left: 580px;
+
+}
+
+.fondo {
+background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 340px;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: auto;
+padding: 60px;
+width:40%;
+font-weight: bold;
+height: 60%;
+}
+
+span{
+color:white;
+}
+
+main{
+    display: flex
+}
+
+main>img{
+    margin-bottom: 120px;
+    margin-left: 100px;
+}
+
+.grid-item {
+background-color: rgba(161, 163, 53, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+#uno {
+grid-column: 1 / 4; /* 1,2,3*/
+grid-row:1/2;
+font-size:30px;
+}
+
+#dos {
+grid-column: 2/3;
+grid-row:2/3;
+text-align: right;
+}
+
+#tres {
+grid-column: 3/4;
+grid-row:2/4;
+font-size:50px;
+}
+
+#cuatro {
+grid-column: 3/4;
+grid-row:4/5;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1px;
+}
+
+.p1{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(129, 83, 27);
+}
+
+.p2{
+    font-weight: bold;
+}
+
+.p3{
+    color: rgb(137, 138, 139);
+}
+
+#vector {
+    height: 60px;
+    padding-top: 60px;
+}
